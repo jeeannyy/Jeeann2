@@ -82,20 +82,21 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    Northcoders: {
-      jobTitle: "Trainee Software Developer @",
-      duration: "MAY 2022 - PRESENT",
+    "My Forest": {
+      jobTitle: "Full Stack Software Engineer @",
+      duration: "AUG 2022 - PRESENT",
       desc: [
-        "Build a Full stack project using React Native, Front-end project using React and a Back-end project using Node + Psql.",
-        "Focused to learn JavaScript, Test Driven Develpment, Agile Project Management and Object-Oriented Programming.",
-        "Collaborated with other students to complete many sprints and practiced pair-programming."
+        "Building front-end skeleton using modular, reusable React Native components",
+        "Tech Stack: React Native, MongoDB",
       ]
     },
-    CodeFirstGirls: {
-      jobTitle: "Student @",
-      duration: "MAR 2022",
+    "NewNew" : {
+      jobTitle: "Full Stack Software Engineer @",
+      duration: "MAY 2022 - PRESENT",
       desc: [
-        "Learnt basic web development with other students."
+        "Architected a ratings and reviews system to allow users to post reviews, view ratings, choose articles by categories and sort by likes, comments, date, and votes for a specific article.",
+        "Built a news API with Node.js trying to mimic the real-world backend service which should provide information to the front-end architecture",
+        "Tech Stack: React.js, Node.js, Express, PSQL, CSS"
       ]
     },
     Tiktok: {
@@ -103,8 +104,8 @@ const JobList = () => {
       duration: "SEP 2020 - FEB 2022",
       desc: [
         "Machine Translation Project with AI-Lab-NLP-Machine Learning team.",
-        "Work cooperatively with the internal and global team to build QA policies and created documentation related to Korean trends.",
-        "Identify controversial cases or errors using the content review & discussion set up within the team and to be updated to the stakeholders.",
+        "Worked cooperatively with the internal and global team to build QA policies and created documentation related to Korean trends.",
+        "Identified controversial cases or errors using the content review & discussion set-up within the team and to be updated to stakeholders.",
         "Created onboarding guide for newbies and trained to onboard .",
         "Led and supported Team Building Activities in Korea."
       ]

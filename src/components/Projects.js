@@ -50,6 +50,20 @@ class Projects extends React.Component {
         link: "https://github.com/jeeannyy/News-app",
         open: "https://jeeannyy.github.io/News-app"
       },
+      "Coin Tracker": {
+        desc:
+          "A coin tracker application for top-ranking cryptos. You can find the real-time ranking, price chart, and history.",
+        techStack: "React, TypeScript, Styled-components",
+        link: "https://github.com/jeeannyy/Paint-app",
+        open: "https://painting-jeeann.netlify.app"
+      },
+      "Trello": {
+        desc:
+          "Cloned basic features of Trello application. You can add and delete boards and tasks",
+        techStack: "React, TypeScript, Styled-components",
+        link: "https://github.com/jeeannyy/Paint-app",
+        open: "https://painting-jeeann.netlify.app"
+      },
       "Paint app": {
         desc:
           "A paint app for all age of people.",
