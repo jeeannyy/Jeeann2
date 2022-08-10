@@ -82,7 +82,7 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
-    "My Forest": {
+    "MyForest": {
       jobTitle: "Full Stack Software Engineer @",
       duration: "AUG 2022 - PRESENT",
       desc: [
