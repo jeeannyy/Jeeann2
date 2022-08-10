@@ -19,7 +19,7 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>trainee software developer</b> at {" "}<a href="https://northcoders.com/">Northcoders</a>. I studied <b>Media art and Computer Science</b> at {" "}<a href="https://eng.ssu.ac.kr/">Soongsil University</a>. After graduation, I worked as a digital marketer and content editor in Seoul, South Korea.
+        I am currently a <b>trainee software developer</b> at {" "}<a href="https://northcoders.com/">Northcoders</a>. I studied {" "}<a href="https://eng.ssu.ac.kr/">Media Art and Computer Science</a> at <b>Soongsil University</b> in Seoul, South Korea. Before I started on this journey, I worked as a marketer and data operator. These experiences gave me a unique perspective on solving complex problems and a strong background in design, communication and knowledge of the technology industry.
       </p>
     );
     const two = (
@@ -71,7 +71,7 @@ class About extends React.Component {
               {[two]}
             </div>
             <div className="about-image">
-              <img src={"/assets/me.jpg"} />
+              <img src={require('../assets/me.jpg')} />
             </div>
           </div>
         </FadeInSection>

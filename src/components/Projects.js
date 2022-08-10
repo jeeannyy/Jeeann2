@@ -45,24 +45,24 @@ class Projects extends React.Component {
     const projects = {
       "News app": {
         desc:
-          "A News app that user can view, discuss, rate articles.",
+          "This is a News app that user can view, discuss, rate articles. It interacts with an API which was developed during my News Backend project.",
         techStack: "React, React Router, Axios, CSS",
         link: "https://github.com/jeeannyy/News-app",
         open: "https://jeeannyy.github.io/News-app"
       },
       "Coin Tracker": {
         desc:
-          "A coin tracker application for top-ranking cryptos. You can find the real-time ranking, price chart, and history.",
+          "A coin tracker application that you can find the real-time cryptos' ranking, price chart, and history.",
         techStack: "React, TypeScript, Styled-components",
-        link: "https://github.com/jeeannyy/Paint-app",
-        open: "https://painting-jeeann.netlify.app"
+        link: "https://github.com/jeeannyy/Coin-Tracker",
+        open: "https://jeeannyy.github.io/Coin-Tracker/"
       },
       "Trello": {
         desc:
           "Cloned basic features of Trello application. You can add and delete boards and tasks",
         techStack: "React, TypeScript, Styled-components",
-        link: "https://github.com/jeeannyy/Paint-app",
-        open: "https://painting-jeeann.netlify.app"
+        link: "https://github.com/jeeannyy/Trello-Clone",
+        open: "https://jeeannyy.github.io/Trello-Clone"
       },
       "Paint app": {
         desc:
@@ -81,21 +81,21 @@ class Projects extends React.Component {
       ,
       "Kokoatalk": {
         desc:
-          "Cloned Korean messanger app 'Kakaotalk' 2021 version.",
+          "Cloned Korean messanger application, Kakaotalk.",
         techStack: "HTML5, CSS",
         link: "https://github.com/jeeannyy/Kokoatalk",
         open: "https://kokoatalk-jeeann.netlify.app/"
       },
       "Drum Kit": {
         desc:
-          "Drum app that everyone can play it.",
+          "A drum application that everyone can play it.",
         techStack: "JavaScript, HTML5, CSS",
         link: "https://drumkit-jeeann.netlify.app",
         open: "https://github.com/jeeannyy/Drum-Kit"
       },
       "Todo Todo": {
         desc:
-          "To do list app.",
+          "Simple design To do list application.",
         techStack: "React, CSS",
         link: "https://github.com/jeeannyy/TodoTodo",
         open: "https://jeeannyy.github.io/TodoTodo/"

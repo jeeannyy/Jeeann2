@@ -17,10 +17,10 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  font-family: "NTR", sans-serif;
+  font-family: "DungGeunMo", sans-serif;
   letter-spacing: 0em;
   line-height: 1.6em;
-  font-size: 18px;
+  font-size: 24px;
   padding: 0.2em;
   font-weight: bold;
 }
@@ -35,12 +35,16 @@ a:hover {
 }
 
 .sidebar-logos {
-  padding-top: 42px;
-  width: 70px;
+  padding-top: 20px;
+  width: 110px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 8px;
+}
+
+.sidebar-logos a {
+  padding-right: 15px;
 }
 
 img {
