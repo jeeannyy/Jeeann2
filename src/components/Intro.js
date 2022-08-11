@@ -39,7 +39,7 @@ class Intro extends React.Component {
             interest in full-stack development, human-computer interactions, artificial intelligence, and everything in between.
           </div>
           <a
-            href="jeeann.kim@gmail.com"
+            href="mailto:jeeann.kim@gmail.com"
             className="intro-contact"
           >
             <EmailRoundedIcon></EmailRoundedIcon>
