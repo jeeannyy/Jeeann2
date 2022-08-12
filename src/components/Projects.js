@@ -4,7 +4,7 @@ import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
 import FadeInSection from "./FadeInSection";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import Carousel from "react-bootstrap/Carousel";
 import ExternalLinks from "./ExternalLinks";
 
@@ -52,10 +52,17 @@ class Projects extends React.Component {
       },
       "Coin Tracker": {
         desc:
-          "A coin tracker application that you can find the real-time cryptos' ranking, price chart, and history.",
+          "A coin tracker application that you can find the real-time cryptos' ranking, price chart, and history",
         techStack: "React, TypeScript, Styled-components",
         link: "https://github.com/jeeannyy/Coin-Tracker",
         open: "https://jeeannyy.github.io/Coin-Tracker/"
+      },
+      "Weather app": {
+        desc:
+          "This is an application that informs the weather based on the user's real-time location",
+        techStack: "React Native",
+        link: "https://github.com/jeeannyy/Weather-app",
+        open: ""
       },
       "Trello": {
         desc:

@@ -31,13 +31,13 @@ canvas {
 
 .intro-title {
   font-family: "DungGeunMo", sans-serif;
-  font-size: 86px;
+  font-size: 73px;
 }
 .intro-name {
   font-family: "DungGeunMo", sans-serif;
   color: var(--green-bright);
   font-weight: bold;
-  font-size: 86px;
+  font-size: 73px;
 }
 
 .intro-subtitle {
