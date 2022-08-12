@@ -1,6 +1,6 @@
 # Portfolio
 
-https://jeeannyy.github.io/Portfolio/
+https://jeeannyy.github.io/Jeeann
 
 ## 🛠 set-up
 
