@@ -29,13 +29,13 @@ class Intro extends React.Component {
           <span className="intro-title">
             {"Hi, "}
             <span className="intro-name">{"Jeeann"}</span>
-            {" here."}
+            {" here!"}
           </span>
         </Typist>
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a junior Software engineer and artist based in London 🇬🇧 (but made in Korea 🇰🇷). I have great
+            I'm a Software Engineer and artist based in London 🇬🇧 (but made in Korea 🇰🇷). I have great
             interest in full-stack development, human-computer interactions, artificial intelligence, and everything in between.
           </div>
           <a

@@ -57,6 +57,13 @@ class Projects extends React.Component {
         link: "https://github.com/jeeannyy/Coin-Tracker",
         open: "https://jeeannyy.github.io/Coin-Tracker/"
       },
+      "My Forest": {
+        desc:
+          "A location-based tree capture application. The user can take a picture of the tree using the map and tree marker. If the species is a match with our database, the tree has been added to user's pocket forest page.",
+        techStack: "React Native, Expo, MongoDB, Jest, Heroku",
+        link: "https://github.com/jeeannyy/News-app",
+        open: "https://jeeannyy.github.io/News-app"
+      },
       "Weather app": {
         desc:
           "This is an application that informs the weather based on the user's real-time location",

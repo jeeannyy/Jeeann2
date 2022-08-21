@@ -21,7 +21,7 @@ canvas {
 .Typist {
   color: var(--lightest-slate);
   text-align: center;
-  font-size: 75px;
+  font-size: 80px;
   margin-top: -30px;
 }
 .Typist .Cursor--blinking {
@@ -31,13 +31,13 @@ canvas {
 
 .intro-title {
   font-family: "DungGeunMo", sans-serif;
-  font-size: 75px;
+  font-size: 80px;
 }
 .intro-name {
   font-family: "DungGeunMo", sans-serif;
   color: var(--green-bright);
   font-weight: bold;
-  font-size: 75px;
+  font-size: 80px;
 }
 
 .intro-subtitle {
