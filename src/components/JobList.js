@@ -84,30 +84,31 @@ const JobList = () => {
   const experienceItems = {
     "MyForest": {
       jobTitle: "Full Stack Software Engineer @",
-      duration: "AUG 2022 - PRESENT",
+      duration: "2022",
       desc: [
-        "Building front-end skeleton using modular, reusable React Native components",
+        "Facilitated discussions with the team to access users' expectations and constructed wireframe",
+        "Developed front-end skeleton using modular, reusable React Native components and made final calls for production-level UI changes",
         "Tech Stack: React Native, MongoDB",
       ]
     },
     "NewNew" : {
       jobTitle: "Full Stack Software Engineer @",
-      duration: "MAY 2022 - PRESENT",
+      duration: "2022",
       desc: [
-        "Architected a ratings and reviews system to allow users to post reviews, view ratings, choose articles by categories and sort by likes, comments, date, and votes for a specific article",
+        "Architected a service of a ratings and reviews system to allow users to post reviews, view ratings, choose articles by categories and sort by likes, comments, date, and votes for a specific article",
         "Built a news API with Node.js trying to mimic the real-world backend service which should provide information to the front-end architecture",
         "Tech Stack: React.js, Node.js, Express, PSQL, CSS"
       ]
     },
-    Tiktok: {
+    "TikTok": {
       jobTitle: "AI Data Operator Specialist @",
       duration: "SEP 2020 - FEB 2022",
       desc: [
         "Machine Translation Project with AI-Lab-NLP-Machine Learning team",
         "Worked cooperatively with the internal and global team to build QA policies and created documentation related to Korean trends",
-        "Identified controversial cases or errors using the content review & discussion set-up within the team and to be updated to stakeholders",
-        "Created onboarding guide for newbies and trained to onboard",
-        "Led and supported Team Building Activities in Korea"
+        "Identified controversial cases and errors using the content review & discussion set-up within the team and to be updated stakeholders",
+        "Created an onboarding guide for newbies and trained them to onboard",
+        "Led and supported team-building activities in Korea",
       ]
     }
   };
