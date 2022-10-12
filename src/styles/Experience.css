@@ -1,18 +1,18 @@
 #experience {
   padding-left: 15%;
-  min-height: 90vh;
+  min-height: 105vh;
 }
 
 .joblist-job-title {
   font-family: "DungGeunMo", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   color: var(--lightest-slate);
 }
 
 .joblist-job-company {
   font-family: "DungGeunMo", sans-serif;
-  font-size: 32px;
+  font-size: 28px;
   color: var(--green-bright);
   font-weight: bold;
 }

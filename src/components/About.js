@@ -19,12 +19,12 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>trainee software developer</b> at {" "}<a href="https://northcoders.com/">Northcoders</a>. I studied {" "}<a href="https://eng.ssu.ac.kr/">Media Art and Computer Science</a> at <b>Soongsil University</b> in Seoul, South Korea. Before I started on this journey, I worked as a marketer and data operator. These experiences gave me a unique perspective on solving complex problems and a strong background in design, communication and knowledge of the technology industry.
+        I am currently a <b>trainee software developer</b> at {" "}<a href="https://northcoders.com/">Northcoders</a>. I studied {" "}<a href="https://eng.ssu.ac.kr/">Media Arts and Computer Science</a> at <b>Soongsil University</b> in Seoul, South Korea. Before I started on this journey, I worked as a marketer and data operator. These experiences gave me a unique perspective on solving complex problems and a strong background in design, communication and knowledge of the technology industry.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in editing videos, painting, traveling, going to the art museum and learning English.
+        Outside of work, I'm interested in editing videos, painting, traveling, going to the art museum and studying English.
       </p>
     );
     const three = (
