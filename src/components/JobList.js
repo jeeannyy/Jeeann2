@@ -82,6 +82,39 @@ const JobList = () => {
   const [value, setValue] = React.useState(0);
 
   const experienceItems = {
+    "Chingu": {
+      jobTitle: "Frontend Developer @",
+      duration: "JAN 2023 - Present",
+      desc: [
+        "Collaborating with global web developers, contributing to the planning, designing, and deploying of a book donation application",
+        "Tech Stack: JavaScript, React.js, CSS, Git",
+      ]
+    },
+    "Code First Girls": {
+      jobTitle: "Course Instructor @",
+      duration: "NOV 2022 - Present",
+      desc: [
+        "Teaching online web development courses to women who are beginners in programming",
+        "Leading lectures and supporting other instructors' classes, assisting in their presentations",
+        "Tech Stack: JavaScript, Git, HTML, CSS",
+      ]
+    },
+    "Athena Hackathon": {
+      jobTitle: "Frontend Developer @",
+      duration: "OCT 2022",
+      desc: [
+        "Won the Best User Journey Prize from Valtech",
+        "Built an impact investment app that allows everyone to invest in socially and environmentally focused projects and companies through their daily spending activities, using our round-up feature.",
+        "Tech Stack: Python, Figma",
+      ]
+    },
+    "freeCodeCamp": {
+      jobTitle: "Open Source Contributor @",
+      duration: "OCT 2022",
+      desc: [
+        "Translating and reviewing freeCodeCamp tutorials from English to Korean for Korean developer community"
+      ]
+    },
     "Pocket Forest": {
       jobTitle: "Full Stack Software Engineer @",
       duration: "2022",
