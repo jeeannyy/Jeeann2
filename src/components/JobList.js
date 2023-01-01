@@ -86,7 +86,7 @@ const JobList = () => {
       jobTitle: "Frontend Developer @",
       duration: "JAN 2023 - Present",
       desc: [
-        "Collaborating with global web developers, contributing to the planning, designing, and deploying of a book donation application",
+        "Collaborating with global web developers, contributing to our application's planning, designing, and deploying",
         "Tech Stack: JavaScript, React.js, CSS, Git",
       ]
     },
@@ -110,7 +110,7 @@ const JobList = () => {
     },
     "freeCodeCamp": {
       jobTitle: "Open Source Contributor @",
-      duration: "OCT 2022",
+      duration: "OCT 2022 - Present",
       desc: [
         "Translating and reviewing freeCodeCamp tutorials from English to Korean for Korean developer community"
       ]

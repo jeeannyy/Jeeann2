@@ -3,7 +3,6 @@ import React from "react";
 import "../styles/Intro.css";
 import Typist from "react-typist";
 import "react-typist/dist/Typist.css";
-import GaziModel from "./GaziModel";
 import EmailRoundedIcon from "@material-ui/icons/EmailRounded";
 import FadeInSection from "./FadeInSection";
 
@@ -35,8 +34,8 @@ class Intro extends React.Component {
         <FadeInSection>
           <div className="intro-subtitle">I create stuff sometimes.</div>
           <div className="intro-desc">
-            I'm a Software Engineer and artist based in London 🇬🇧. I have great
-            interest in front-end development, human-computer interactions, artificial intelligence, and everything in between.
+            I'm a Software Engineer and Artist based in London 🇬🇧. I have a great
+            interest in human-computer interactions, media arts, artificial intelligence, and everything in between.
           </div>
           <a
             href="mailto:jeeann.kim@gmail.com"

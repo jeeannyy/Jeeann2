@@ -92,14 +92,6 @@ class Projects extends React.Component {
         link: "https://github.com/jeeannyy/Paint-app",
         open: "https://painting-jeeann.netlify.app"
       },
-      "Real Time Chat": {
-        desc:
-          "A simple chat app that multiple people can join and chat in real time.",
-        techStack: "socket.io, Javascript",
-        link: "https://github.com/jeeannyy/Real-Time-Chat",
-        open: ""
-      }
-      ,
       "Kokoatalk": {
         desc:
           "Cloned Korean messanger application, Kakaotalk.",
@@ -142,6 +134,13 @@ class Projects extends React.Component {
         link: "https://github.com/jeeannyy/Dice-Game",
         open: "https://dicegame-jeeann.netlify.app"
       },
+      "Real Time Chat": {
+        desc:
+          "A simple chat app that multiple people can join and chat in real time.",
+        techStack: "socket.io, Javascript",
+        link: "https://github.com/jeeannyy/Real-Time-Chat",
+        open: ""
+      }
 
     };
 

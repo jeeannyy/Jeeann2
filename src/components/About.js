@@ -19,12 +19,12 @@ class About extends React.Component {
   render() {
     const one = (
       <p>
-        I am currently a <b>trainee software developer</b> at {" "}<a href="https://northcoders.com/">Northcoders</a>. I studied {" "}<a href="https://eng.ssu.ac.kr/">Media Arts and Computer Science</a> at <b>Soongsil University</b> in Seoul, South Korea. Before I started on this journey, I worked as a marketer and data operator. These experiences gave me a unique perspective on solving complex problems and a strong background in design, communication and knowledge of the technology industry.
+        I am currently a <b>Frontend Developer</b> at {" "}<a href="https://www.chingu.io/"><b>Chingu</b></a> and <b>Course Instructor</b> at {" "}<a href="https://codefirstgirls.com/"><b>Code First Girls</b></a>. I studied {" "}<a href="https://eng.ssu.ac.kr/">Media Arts and Computer Science</a> at {" "}<a href="https://eng.ssu.ac.kr/"><b>Soongsil University</b></a> in Seoul, South Korea and finished my <b>Software Engineering course</b> at {" "}<a href="https://northcoders.com/"><b>Northcoders</b></a> in London, UK. Before starting this journey, I worked as a marketer and data operator specialist at tvN, Kakao and TikTok. 
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in editing videos, painting, traveling, going to the art museum and studying English.
+        Outside of work, I'm interested in editing videos, painting, traveling, vintage fashion, R&B and jazz, and writing a diary.
       </p>
     );
     const three = (
