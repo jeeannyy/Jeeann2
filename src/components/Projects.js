@@ -43,6 +43,13 @@ class Projects extends React.Component {
     //   }
     // };
     const projects = {
+      "Kimchi shop": {
+        desc:
+          "This app was created to sell Korea's Korgeous Kimchi.",
+        techStack: "Redux, React.js, React Router, Axios, Bootstrap",
+        link: "https://kimchi-shop.netlify.app/kimchi-shop",
+        open: "https://github.com/jeeannyy/kimchi-shop"
+      },
       "News app": {
         desc:
           "This is a News app that user can view, discuss, rate articles. It interacts with an API which was developed during my News Backend project.",

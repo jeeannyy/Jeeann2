@@ -86,8 +86,8 @@ const JobList = () => {
       jobTitle: "Frontend Developer @",
       duration: "JAN 2023 - Present",
       desc: [
-        "Collaborating with global web developers, contributing to our application's planning, designing, and deploying",
-        "Tech Stack: JavaScript, React.js, CSS, Git",
+        "* Collaborating with global web developers, contributing to our application's planning, designing, building, and deploying",
+        "Tech Stack: React.js, SASS, Zenhub, Git",
       ]
     },
     "Code First Girls": {
