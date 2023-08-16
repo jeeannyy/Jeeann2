@@ -1,19 +1,19 @@
-import React from "react";
-import "../styles/Credits.css";
-import FadeInSection from "./FadeInSection";
+import React from 'react';
+import '../styles/Credits.css';
+import FadeInSection from './FadeInSection';
 
 class Credits extends React.Component {
   constructor() {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: '1',
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -21,7 +21,7 @@ class Credits extends React.Component {
       <FadeInSection>
         <div id="credits">
           <div className="ending-credits">
-            <div>Copyright © 2022 Jeeanny🦕. All rights reserved.</div>
+            <div>Copyright © 2023 Jeeanny🦕. All rights reserved.</div>
           </div>
         </div>
       </FadeInSection>

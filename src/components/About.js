@@ -33,12 +33,8 @@ class About extends React.Component {
           <b>Soongsil University</b>
         </a>{' '}
         in Seoul, South Korea and finished my <b>Software Engineering course</b>{' '}
-        at{' '}
-        <a href="https://northcoders.com/">
-          <b>Northcoders</b>
-        </a>{' '}
-        in London, UK. Before starting this journey, I worked as a marketer and
-        data operator specialist at tvN, Kakao and TikTok.
+        at <b>Northcoders</b> in the UK. Before starting this journey, I worked
+        as a marketer and data operator specialist at tvN, Kakao and TikTok.
       </p>
     );
     const two = (
