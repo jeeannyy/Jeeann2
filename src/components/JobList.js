@@ -131,8 +131,6 @@ const JobList = () => {
         'Machine Translation Project with AI-Lab-NLP-Machine Learning team',
         'Worked cooperatively with the internal and global team to build QA policies and created documentation related to Korean trends',
         'Identified controversial cases and errors using the content review & discussion set-up within the team and to be updated stakeholders',
-        'Created an onboarding guide for newbies and trained them to onboard',
-        'Led and supported team-building activities in Korea',
       ],
     },
   };
