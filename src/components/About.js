@@ -32,15 +32,13 @@ class About extends React.Component {
         <a href="https://eng.ssu.ac.kr/">
           <b>Soongsil University</b>
         </a>{' '}
-        in Seoul, South Korea and finished my <b>Software Engineering course</b>{' '}
-        at <b>Northcoders</b> in the UK. Before starting this journey, I worked
-        as a marketer and data operator specialist at tvN, Kakao and TikTok.
+        in Seoul, South Korea.
       </p>
     );
     const two = (
       <p>
         Outside of work, I'm interested in editing videos, painting, traveling,
-        vintage fashion, R&B and jazz, and writing a diary.
+        R&B and jazz, and trying new recipes.
       </p>
     );
     const three = (
