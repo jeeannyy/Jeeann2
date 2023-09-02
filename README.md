@@ -1,7 +1,5 @@
 # Portfolio
 
-https://jeeannyy.github.io/Jeeann
-
 ## 🛠 set-up
 
 1. Install the dependencies

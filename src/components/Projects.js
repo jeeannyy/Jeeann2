@@ -1,25 +1,25 @@
-import React from "react";
-import "../styles/Projects.css";
-import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import OpenInBrowserIcon from "@material-ui/icons/OpenInBrowser";
-import FadeInSection from "./FadeInSection";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
-import Carousel from "react-bootstrap/Carousel";
-import ExternalLinks from "./ExternalLinks";
+import React from 'react';
+import '../styles/Projects.css';
+import FolderOpenRoundedIcon from '@material-ui/icons/FolderOpenRounded';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import OpenInBrowserIcon from '@material-ui/icons/OpenInBrowser';
+import FadeInSection from './FadeInSection';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Carousel from 'react-bootstrap/Carousel';
+import ExternalLinks from './ExternalLinks';
 
 class Projects extends React.Component {
   constructor() {
     super();
     this.state = {
       expanded: true,
-      activeKey: "1"
+      activeKey: '1',
     };
     this.handleSelect = this.handleSelect.bind(this);
   }
   handleSelect(eventKey) {
     this.setState({
-      activeKey: eventKey
+      activeKey: eventKey,
     });
   }
   render() {
@@ -43,111 +43,101 @@ class Projects extends React.Component {
     //   }
     // };
     const projects = {
-      "Kimchi shop": {
-        desc:
-          "This app was created to sell Korea's Korgeous Kimchi.",
-        techStack: "Redux, React.js, React Router, Axios, Bootstrap",
-        link: "https://kimchi-shop.netlify.app/kimchi-shop",
-        open: "https://github.com/jeeannyy/kimchi-shop"
+      'Kimchi shop': {
+        desc: "This app was created to sell Korea's Korgeous Kimchi.",
+        techStack: 'Redux, React.js, React Router, Axios, Bootstrap',
+        link: 'https://kimchi-shop.netlify.app/kimchi-shop',
+        open: 'https://github.com/jeeannyy/kimchi-shop',
       },
-      "News app": {
-        desc:
-          "This is a News app that user can view, discuss, rate articles. It interacts with an API which was developed during my News Backend project.",
-        techStack: "React, React Router, Axios, CSS",
-        link: "https://github.com/jeeannyy/News-app",
-        open: "https://jeeannyy.github.io/News-app"
+      'Harry Potter House Test': {
+        desc: 'This app lets you know which Hogwarts dorm you belong to.',
+        techStack: 'React.js, React Router, SCSS',
+        link: 'https://github.com/chingu-voyages/v42-geckos-team-12',
+        open: 'https://chingu-voyages.github.io/v42-geckos-team-12',
       },
-      "Coin Tracker": {
-        desc:
-          "A coin tracker application that you can find the real-time cryptos' ranking, price chart, and history",
-        techStack: "React, TypeScript, Styled-components",
-        link: "https://github.com/jeeannyy/Coin-Tracker",
-        open: "https://jeeannyy.github.io/Coin-Tracker/"
+      'News app': {
+        desc: 'This is a News app that user can view, discuss, rate articles. It interacts with an API which was developed during my News Backend project.',
+        techStack: 'React, React Router, Axios, CSS',
+        link: 'https://github.com/jeeannyy/News-app',
+        open: 'https://jeeannyy.github.io/News-app',
       },
-      "Jeflix": {
-        desc:
-          "This is a clone of the Netflix website built using React.JS as a Front-end.",
-        techStack: "React, TypeScript, Styled-components",
-        link: "https://github.com/jeeannyy/jetflix",
-        open: "https://jeeannyy.github.io/jetflix/"
+      'Coin Tracker': {
+        desc: "A coin tracker application that you can find the real-time cryptos' ranking, price chart, and history",
+        techStack: 'React, TypeScript, Styled-components',
+        link: 'https://github.com/jeeannyy/Coin-Tracker',
+        open: 'https://jeeannyy.github.io/Coin-Tracker/',
       },
-      "Pocket Forest": {
-        desc:
-          "A location-based tree capture application. The user can take a picture of the tree using the map and tree marker. If the species is a match with our database, the tree has been added to user's pocket forest page.",
-        techStack: "React Native, Expo, MongoDB, Jest, Heroku",
-        link: "https://github.com/jeeannyy/Pocket-Forest"
+      Jeflix: {
+        desc: 'This is a clone of the Netflix website built using React.JS as a Front-end.',
+        techStack: 'React, TypeScript, Styled-components',
+        link: 'https://github.com/jeeannyy/jetflix',
+        open: 'https://jeeannyy.github.io/jetflix/',
       },
-      "Weather app": {
-        desc:
-          "This is an application that informs the weather based on the user's real-time location",
-        techStack: "React Native",
-        link: "https://github.com/jeeannyy/Weather-app",
-        open: ""
+      'Pocket Forest': {
+        desc: "A location-based tree capture application. The user can take a picture of the tree using the map and tree marker. If the species is a match with our database, the tree has been added to user's pocket forest page.",
+        techStack: 'React Native, Expo, MongoDB, Jest, Heroku',
+        link: 'https://github.com/jeeannyy/Pocket-Forest',
       },
-      "Trello": {
-        desc:
-          "Cloned basic features of Trello application. You can add and delete boards and tasks",
-        techStack: "React, TypeScript, Styled-components",
-        link: "https://github.com/jeeannyy/Trello-Clone",
-        open: "https://jeeannyy.github.io/Trello-Clone"
+      'Weather app': {
+        desc: "This is an application that informs the weather based on the user's real-time location",
+        techStack: 'React Native',
+        link: 'https://github.com/jeeannyy/Weather-app',
+        open: '',
       },
-      "Paint app": {
-        desc:
-          "A paint app for all age of people.",
-        techStack: "JavaScript, HTML5 / CSS",
-        link: "https://github.com/jeeannyy/Paint-app",
-        open: "https://painting-jeeann.netlify.app"
+      Trello: {
+        desc: 'Cloned basic features of Trello application. You can add and delete boards and tasks',
+        techStack: 'React, TypeScript, Styled-components',
+        link: 'https://github.com/jeeannyy/Trello-Clone',
+        open: 'https://jeeannyy.github.io/Trello-Clone',
       },
-      "Kokoatalk": {
-        desc:
-          "Cloned Korean messanger application, Kakaotalk.",
-        techStack: "HTML5, CSS",
-        link: "https://github.com/jeeannyy/Kokoatalk",
-        open: "https://kokoatalk-jeeann.netlify.app/"
+      'Paint app': {
+        desc: 'A paint app for all age of people.',
+        techStack: 'JavaScript, HTML5 / CSS',
+        link: 'https://github.com/jeeannyy/Paint-app',
+        open: 'https://painting-jeeann.netlify.app',
       },
-      "Drum Kit": {
-        desc:
-          "A drum application that everyone can play it.",
-        techStack: "JavaScript, HTML5, CSS",
-        link: "https://drumkit-jeeann.netlify.app",
-        open: "https://github.com/jeeannyy/Drum-Kit"
+      Kokoatalk: {
+        desc: 'Cloned Korean messanger application, Kakaotalk.',
+        techStack: 'HTML5, CSS',
+        link: 'https://github.com/jeeannyy/Kokoatalk',
+        open: 'https://kokoatalk-jeeann.netlify.app/',
       },
-      "Todo Todo": {
-        desc:
-          "Simple design To do list application.",
-        techStack: "React, CSS",
-        link: "https://github.com/jeeannyy/TodoTodo",
-        open: "https://jeeannyy.github.io/TodoTodo/"
+      'Drum Kit': {
+        desc: 'A drum application that everyone can play it.',
+        techStack: 'JavaScript, HTML5, CSS',
+        link: 'https://drumkit-jeeann.netlify.app',
+        open: 'https://github.com/jeeannyy/Drum-Kit',
       },
-      "London": {
-        desc:
-          "A poster for practicing CSS grid and flex.",
-        techStack: "HTML5, CSS",
-        link: "https://github.com/jeeannyy/London",
-        open: ""
+      'Todo Todo': {
+        desc: 'Simple design To do list application.',
+        techStack: 'React, CSS',
+        link: 'https://github.com/jeeannyy/TodoTodo',
+        open: 'https://jeeannyy.github.io/TodoTodo/',
       },
-      "Bad Religion": {
-        desc:
-          "A poster for practicing CSS grid and flex.",
-        techStack: "HTML5, CSS",
-        link: "https://github.com/jeeannyy/Bad-Religion",
-        open: ""
+      London: {
+        desc: 'A poster for practicing CSS grid and flex.',
+        techStack: 'HTML5, CSS',
+        link: 'https://github.com/jeeannyy/London',
+        open: '',
       },
-      "Dice game": {
-        desc:
-          "A dice game made with Vanilla JS.",
-        techStack: "JavaScript, HTML5, CSS",
-        link: "https://github.com/jeeannyy/Dice-Game",
-        open: "https://dicegame-jeeann.netlify.app"
+      'Bad Religion': {
+        desc: 'A poster for practicing CSS grid and flex.',
+        techStack: 'HTML5, CSS',
+        link: 'https://github.com/jeeannyy/Bad-Religion',
+        open: '',
       },
-      "Real Time Chat": {
-        desc:
-          "A simple chat app that multiple people can join and chat in real time.",
-        techStack: "socket.io, Javascript",
-        link: "https://github.com/jeeannyy/Real-Time-Chat",
-        open: ""
-      }
-
+      'Dice game': {
+        desc: 'A dice game made with Vanilla JS.',
+        techStack: 'JavaScript, HTML5, CSS',
+        link: 'https://github.com/jeeannyy/Dice-Game',
+        open: 'https://dicegame-jeeann.netlify.app',
+      },
+      'Real Time Chat': {
+        desc: 'A simple chat app that multiple people can join and chat in real time.',
+        techStack: 'socket.io, Javascript',
+        link: 'https://github.com/jeeannyy/Real-Time-Chat',
+        open: '',
+      },
     };
 
     return (
@@ -193,14 +183,14 @@ class Projects extends React.Component {
                       ></FolderOpenRoundedIcon>
                     </div>
                     <ExternalLinks
-                      githubLink={projects[key]["link"]}
-                      openLink={projects[key]["open"]}
+                      githubLink={projects[key]['link']}
+                      openLink={projects[key]['open']}
                     ></ExternalLinks>
                   </div>
 
                   <div className="card-title">{key}</div>
-                  <div className="card-desc">{projects[key]["desc"]}</div>
-                  <div className="card-tech">{projects[key]["techStack"]}</div>
+                  <div className="card-desc">{projects[key]['desc']}</div>
+                  <div className="card-tech">{projects[key]['techStack']}</div>
                 </li>
               </FadeInSection>
             ))}

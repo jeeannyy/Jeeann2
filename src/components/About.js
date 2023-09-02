@@ -29,16 +29,15 @@ class About extends React.Component {
         </a>
         . I studied{' '}
         <a href="https://eng.ssu.ac.kr/">Media Arts and Computer Science</a> at{' '}
-        <a href="https://eng.ssu.ac.kr/">
-          <b>Soongsil University</b>
-        </a>{' '}
-        in Seoul, South Korea.
+        <b>Soongsil University</b> in Seoul, South Korea.
       </p>
     );
     const two = (
       <p>
-        Outside of work, I'm interested in editing videos, painting, traveling,
-        R&B and jazz, and trying new recipes.
+        Outside of work, I'm interested in editing videos, painting, travelling,
+        finding new artists and songs(especially R&B and jazz), vintage stuff,
+        collecting funny memes, wandering random places in London, and trying
+        new recipes.
       </p>
     );
     const three = (
@@ -47,7 +46,7 @@ class About extends React.Component {
         <a href="jeeann.kim@gmail.com">jeeann.kim@gmail.com</a> and let's talk.
       </p>
     );
-    const desc_items = [one, two];
+    const desc_items = [one, two, three];
 
     const tech_stack = [
       'Javascript ES6+',
