@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Jeeann/static/css/main.1d1f16ea.chunk.css",
-    "main.js": "/Jeeann/static/js/main.2096b823.chunk.js",
-    "main.js.map": "/Jeeann/static/js/main.2096b823.chunk.js.map",
+    "main.js": "/Jeeann/static/js/main.70fa9299.chunk.js",
+    "main.js.map": "/Jeeann/static/js/main.70fa9299.chunk.js.map",
     "runtime-main.js": "/Jeeann/static/js/runtime-main.adef434f.js",
     "runtime-main.js.map": "/Jeeann/static/js/runtime-main.adef434f.js.map",
     "static/css/2.8065d864.chunk.css": "/Jeeann/static/css/2.8065d864.chunk.css",
     "static/js/2.c8228aa5.chunk.js": "/Jeeann/static/js/2.c8228aa5.chunk.js",
     "static/js/2.c8228aa5.chunk.js.map": "/Jeeann/static/js/2.c8228aa5.chunk.js.map",
     "index.html": "/Jeeann/index.html",
-    "precache-manifest.2f6afd35814ec7d8fa25bd0033da643d.js": "/Jeeann/precache-manifest.2f6afd35814ec7d8fa25bd0033da643d.js",
+    "precache-manifest.972766d4eefdfb35261705ea5f2d9b6c.js": "/Jeeann/precache-manifest.972766d4eefdfb35261705ea5f2d9b6c.js",
     "service-worker.js": "/Jeeann/service-worker.js",
     "static/css/2.8065d864.chunk.css.map": "/Jeeann/static/css/2.8065d864.chunk.css.map",
     "static/css/main.1d1f16ea.chunk.css.map": "/Jeeann/static/css/main.1d1f16ea.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.8065d864.chunk.css",
     "static/js/2.c8228aa5.chunk.js",
     "static/css/main.1d1f16ea.chunk.css",
-    "static/js/main.2096b823.chunk.js"
+    "static/js/main.70fa9299.chunk.js"
   ]
 }
