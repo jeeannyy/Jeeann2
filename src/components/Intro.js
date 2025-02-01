@@ -22,7 +22,7 @@ const Intro = () => {
 					human-computer interactions, media arts, AI, and everything in
 					between.
 				</div>
-				<a href='mailto:jeeann.kim@gmail.com' className='intro-contact'>
+				<a href='mailto:jeeann.dev@gmail.com' className='intro-contact'>
 					<EmailRoundedIcon />
 					{'  Say hi!'}
 				</a>
