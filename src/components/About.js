@@ -15,7 +15,9 @@ const About = () => {
 			<a href='https://eng.ssu.ac.kr/'>
 				Computer Science and Interaction Design
 			</a>{' '}
-			at <b>Soongsil University</b> in Seoul, South Korea.
+			at <b>Soongsil University</b> in Seoul, South Korea. I was honored with{' '}
+			<b style={{ color: '#64ffda' }}>the Best UX Award</b> at{' '}
+			<b>Europe's largest women's hackathon</b> in 2022.
 		</p>
 	);
 
@@ -39,28 +41,26 @@ const About = () => {
 
 	return (
 		<div id='about'>
-			<FadeInSection>
-				<div className='section-header'>
-					<span className='section-title'>/ about me</span>
+			<div className='section-header'>
+				<span className='section-title'>/ about me</span>
+			</div>
+			<div className='about-content'>
+				<div className='about-description'>
+					{one}
+					{'Technologies I Work With:'}
+					<ul className='tech-stack'>
+						{tech_stack.map((tech_item, i) => (
+							<FadeInSection key={i} delay={`${i + 1}00ms`}>
+								<li>{tech_item}</li>
+							</FadeInSection>
+						))}
+					</ul>
+					{two}
 				</div>
-				<div className='about-content'>
-					<div className='about-description'>
-						{one}
-						{'Technologies I Work With:'}
-						<ul className='tech-stack'>
-							{tech_stack.map((tech_item, i) => (
-								<FadeInSection key={i} delay={`${i + 1}00ms`}>
-									<li>{tech_item}</li>
-								</FadeInSection>
-							))}
-						</ul>
-						{two}
-					</div>
-					<div className='about-image'>
-						<img src={profilePic} alt='My profile picture' />
-					</div>
+				<div className='about-image'>
+					<img src={profilePic} alt='My profile picture' />
 				</div>
-			</FadeInSection>
+			</div>
 		</div>
 	);
 };

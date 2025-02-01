@@ -86,25 +86,15 @@ const JobList = () => {
 			jobTitle: 'Frontend Developer @',
 			duration: 'FEB 2023 - Present',
 			desc: [
-				'* Building applications for the media planning platform for stakeholders',
-				'Tech Stack: React.js, TypeScript, Redux, Git, Material UI, Chart JS',
+				'Led front-end development, building and maintaining React & TypeScript media planning applications for internal admin and client-facing platforms',
+				'Tech Stack: React, TypeScript, Material UI, Chart JS, Styled Components, Playwright',
 			],
 		},
 		'Code First Girls': {
-			jobTitle: 'Course Instructor @',
-			duration: 'NOV 2022 - Present',
+			jobTitle: 'Instructor @',
+			duration: 'Nov 2022 - Present',
 			desc: [
-				'Teaching online web development courses to women who are beginners in programming',
-				"Leading lectures and supporting other instructors' classes, assisting in their presentations",
-				'Tech Stack: JavaScript, Git, HTML, CSS',
-			],
-		},
-
-		freeCodeCamp: {
-			jobTitle: 'Open Source Contributor @',
-			duration: 'OCT 2022 - Present',
-			desc: [
-				'Translating and reviewing freeCodeCamp tutorials from English to Korean for Korean developer community',
+				'Co-taught web development courses for 50+ beginners through hands-on projects, focusing on practical coding skills',
 			],
 		},
 
@@ -112,18 +102,26 @@ const JobList = () => {
 			jobTitle: 'Frontend Developer @',
 			duration: 'OCT 2022',
 			desc: [
-				'Won the Best User Journey Prize from Valtech',
-				'Built an impact investment app that allows everyone to invest in socially and environmentally focused projects and companies through their daily spending activities, using our round-up feature.',
-				'Tech Stack: Python, Figma',
+				'Received the Best UX Award at Europe’s largest hackathon for women',
+				'Developed ‘Banktree’, an impact investment app promoting sustainable investing',
+				'Designed the UI in Figma, built the prototype with React',
 			],
 		},
+
+		freeCodeCamp: {
+			jobTitle: 'Open Source Contributor @',
+			duration: 'SEP 2022 - Present',
+			desc: [
+				'Translated technical articles from English to Korean, averaging 1K views per article and helping Korean developers access high-quality learning resources',
+			],
+		},
+
 		TikTok: {
 			jobTitle: 'AI Data Operator Specialist @',
 			duration: 'SEP 2020 - FEB 2022',
 			desc: [
-				'Machine Translation Project with AI-Lab-NLP-Machine Learning team',
-				'Worked cooperatively with the internal and global team to build QA policies and created documentation related to Korean trends',
-				'Identified controversial cases and errors using the content review & discussion set-up within the team and to be updated stakeholders',
+				'Collaborated with the AI-Lab-NLP-Machine Learning team on a Machine Translation Project and curated documentation on Korean trends',
+				'Worked closely with internal and global teams to establish QA policies for comment sections and translations',
 			],
 		},
 	};
