@@ -3,11 +3,13 @@ import '../styles/Credits.css';
 import FadeInSection from './FadeInSection';
 
 const Credits = () => {
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<FadeInSection>
 			<div id='credits'>
 				<div className='ending-credits'>
-					<div>Copyright © 2023 Jeeanny🦕. All rights reserved.</div>
+					<div>Copyright © {currentYear} Jeeann 🦕. All rights reserved.</div>
 				</div>
 			</div>
 		</FadeInSection>

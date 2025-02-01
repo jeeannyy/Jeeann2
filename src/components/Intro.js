@@ -18,9 +18,9 @@ const Intro = () => {
 			<FadeInSection>
 				<div className='intro-subtitle'>I create stuff sometimes.</div>
 				<div className='intro-desc'>
-					I'm a Software Engineer and Artist based in London 🇬🇧. I have a great
-					interest in human-computer interactions, media arts, artificial
-					intelligence, and everything in between.
+					I'm a Software Engineer based in London 🇬🇧, passionate about
+					human-computer interactions, media arts, AI, and everything in
+					between.
 				</div>
 				<a href='mailto:jeeann.kim@gmail.com' className='intro-contact'>
 					<EmailRoundedIcon />

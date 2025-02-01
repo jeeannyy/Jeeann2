@@ -4,46 +4,37 @@ import FadeInSection from './FadeInSection';
 import profilePic from '../assets/me.jpg';
 
 const About = () => {
-	const [activeKey, setActiveKey] = useState('1');
-
-	const handleSelect = (eventKey) => {
-		setActiveKey(eventKey);
-	};
-
 	const one = (
 		<p>
-			I am currently a <b>Frontend Developer</b> at
+			I am currently a <b>Frontend Engineer</b> at
 			<a href='https://www.storeboost.com/'>
 				{' '}
-				<b>StoreBoost</b>{' '}
-			</a>
-			and <b>Course Instructor</b> at
-			<a href='https://codefirstgirls.com/'>
-				{' '}
-				<b>Code First Girls</b>{' '}
+				<b>StoreBoost</b>
 			</a>
 			. I studied{' '}
-			<a href='https://eng.ssu.ac.kr/'>Media Arts and Computer Science</a>
+			<a href='https://eng.ssu.ac.kr/'>
+				Computer Science and Interaction Design
+			</a>{' '}
 			at <b>Soongsil University</b> in Seoul, South Korea.
 		</p>
 	);
 
 	const two = (
 		<p>
-			Outside of work, I'm interested in editing videos, painting, travelling,
-			finding new artists and songs (especially R&B and jazz), vintage stuff,
-			collecting funny memes, wandering random places in London, and trying new
-			recipes.
+			Outside of work, I enjoy traveling and discovering new artists and music
+			(especially R&B & Jazz). I love trying out healthy recipes and taking care
+			of my plants. I also cherish spending time with my family and swimming in
+			alpine lakes in the summer.
 		</p>
 	);
 
 	const tech_stack = [
-		'Javascript ES6+',
-		'React.js',
+		'React',
 		'TypeScript',
-		'Redux',
-		'Node.js',
-		'HTML & CSS',
+		'Javascript ES6+',
+		'Node.js (Express.js)',
+		'HTML5 & CSS3',
+		'Git',
 	];
 
 	return (
@@ -55,7 +46,7 @@ const About = () => {
 				<div className='about-content'>
 					<div className='about-description'>
 						{one}
-						{'Here are some technologies I have been working with:'}
+						{'Technologies I Work With:'}
 						<ul className='tech-stack'>
 							{tech_stack.map((tech_item, i) => (
 								<FadeInSection key={i} delay={`${i + 1}00ms`}>
